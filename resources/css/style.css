@@ -1,0 +1,188 @@
+ /*
+blue color: #33c5ff
+
+*/
+
+
+/* ------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;      
+}
+
+.Clearfix {Zoom: 1}
+.clearfix::after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;   
+}
+.Name {
+    color:#fff;
+    top: 65%;
+    position: absolute;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-family:'macondo';
+}
+  
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(image/Olasunkanmi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    height:100vh;
+    
+}
+h1{
+    color: #fff;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;    
+}
+
+section{
+    padding: 60px 0;
+    
+}
+
+.box {
+    padding: 1%
+}
+
+.image{
+    width: 300px;
+    height: 350px;
+    float: right;
+    margin-right: 12%;
+    padding-bottom: 50px;
+}
+
+.main-nav {
+ float: right;
+    list-style: none;
+    margin-top: 40px;
+
+  
+}
+.main-nav Li {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited { 
+padding: 8px 0;
+    text-decoration: none;
+    text-transform: inherit;
+    font-size: 150%;
+    color:#fc880d;
+    border: 9px solid transparent;
+    transition: border-bottom 0.2s;     
+}
+   .main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #fff;
+    
+}
+
+
+.goals  {
+    text-align: center;
+    color:  #fff;
+}
+
+
+.im {
+  color: #fff;
+    top: 55%;
+    position: absolute;
+    font-size: 28px;
+    transform: translate(-50%, -50%);
+    left: 50%;  
+    border: 2px solid #fc880d;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+    
+}
+.bus {
+     color:#fc880d;
+    top: 75%;
+    position: absolute;
+    font-size: 28px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+
+    
+}
+
+
+/* -------- ICONS --------- */
+ 
+.icon-big {
+    color:  #fff;;
+     font-size: 250%;
+   display: block;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+
+.list {
+    line-height: 2;
+    color: #fff;
+}
+
+.Education,
+.Hobbies,
+.about{
+    text-align: justify;
+    font-size: 18px;
+    color:  #fff;
+    
+
+}
+ 
+
+
+.headings {
+  font-size: 30px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px; 
+    color: #fc880d;
+}
+
+.obj {
+    color: #fff;
+}
+
+.my-goals {
+    text-align: center;
+}
+
+.ob {
+    text-align: center;
+}
